@@ -156,8 +156,14 @@ class MyApp extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Icon(Icons.euro_rounded,
-                          color: Colors.white.withOpacity(0.8), size: 98),
+                      Transform.scale(
+                        scale: 2.2,
+                        child: Transform.translate(
+                          offset: Offset(8, 15),
+                          child: Icon(Icons.euro_rounded,
+                              color: Colors.white.withOpacity(0.8), size: 88),
+                        ),
+                      ),
                     ],
                   ),
                 ),
